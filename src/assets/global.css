@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+    font-family: 'lato';
+    src: url('/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+/* *{
+    font-family: lato;
+} */
+.pixelated{
+    image-rendering: pixelated;
+}
+.banner{
+    /* mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 5%,
+        black 80%,
+        transparent
+    ); */
+    mask-image: linear-gradient(
+        black 80%,
+        transparent
+    );
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    background-size: cover;
+    background-attachment: fixed;
+}
