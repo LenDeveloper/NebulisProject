@@ -6,12 +6,12 @@ function Download(){
         <div className="grid grid-cols-2 gap-4 text-white ps-36 pe-36">
             <div className="bg-gray-900 p-5 rounded-md">
                 <p className="text-md text-white font-bold flex items-center text-xl">Windows</p>
-                <a className="hover:underline text-md flex items-center mt-5" href="https://mega.nz/file/JskCFSwA#a0z-QQSKrhQ6t2b_V3MWf0EV47078b6CR-a6k-01PiE">Ejecutable Ver. 0.0.5 x64</a>
+                <a className="hover:underline text-md flex items-center mt-5" href="https://mega.nz/file/JskCFSwA#a0z-QQSKrhQ6t2b_V3MWf0EV47078b6CR-a6k-01PiE" target="_blank">Ejecutable Ver. 0.0.5 x64</a>
             </div>
             <div className="bg-gray-900 p-5 rounded-md">
                 <p className="text-md text-white font-bold flex items-center text-xl">Linux</p>
-                <a className="hover:underline text-md flex items-center mt-5" href="#">AppImage Ver. 0.0.5 x64</a>
-                <a className="hover:underline text-md flex items-center mt-5" href="#">Snap Ver. 0.0.5 x64</a>
+                <a className="hover:underline text-md flex items-center mt-5" href="#" target="_blank">AppImage Ver. 0.0.5 x64</a>
+                <a className="hover:underline text-md flex items-center mt-5" href="#" target="_blank">Snap Ver. 0.0.5 x64</a>
             </div>                
         </div>
         </>
