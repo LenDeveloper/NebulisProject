@@ -9,7 +9,7 @@ import Footer from './components/Footer.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <>
-      <div className='mx-auto pb-0.5 bg-neutral-950 scroll-smooth'>
+      <div className='mx-auto pb-0.5 bg-neutral-950 scroll-smooth overflow-x-hidden'>
         <Banner />
         <Body />
         <Footer />

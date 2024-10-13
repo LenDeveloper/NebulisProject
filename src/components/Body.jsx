@@ -9,11 +9,11 @@ function Body(){
     <>
         <p className='text-lg text-emerald-200 font-bold mt-12 text-center select-none'>Laboratios Virtuales De Programación</p>
         <p className='text-5xl text-white font-bold text-center select-none'>Laboratorios Nebulis</p>
-        <p className="text-md text-white font-bold m-12 ps-36 pe-36 flex items-center">El Proyecto Nebulis se trata de una novedosa idea para implementar laboratorios virtuales de programación enfocado en la optimización de tiempo en el trabajo agilizando el proceso de recordar e investigar la innumerable cantidad de sintaxis que son utilizadas día a día entre programadores, todo esto por medio de una intuitiva interfáz de modo de "juego" que buscan ser lo más elegante, relajado y agradable posible.</p>
-        <p className="text-md text-white font-bold m-12 ps-36 pe-36 flex items-center">Administra tus proyectos de programación desde alguna PC del laboratorio, desde el PC puedes abrir tu proyecto desde VSCode, Sublime Text y tu administrador de archivos, también puedes eliminar tu proyecto, comprimir un respaldo de tu proyecto y administra tu proyecto de GIT.</p>
-        <p className="text-md text-white font-bold m-12 ps-36 pe-36 flex items-center">Dentro de los Laboratorios Nebulis te encontrarás hasta el momento con 2 inteligencias aritificiales (IA) desarrolladas totalmente desde cero y en constante desarrollo, ¡te las presento!:</p>
+        <p className="text-md text-white font-bold m-5 md:ps-36 md:pe-36 flex items-center">El Proyecto Nebulis se trata de una novedosa idea para implementar laboratorios virtuales de programación enfocado en la optimización de tiempo en el trabajo agilizando el proceso de recordar e investigar la innumerable cantidad de sintaxis que son utilizadas día a día entre programadores, todo esto por medio de una intuitiva interfáz de modo de "juego" que buscan ser lo más elegante, relajado y agradable posible.</p>
+        <p className="text-md text-white font-bold m-5 md:ps-36 md:pe-36 flex items-center">Administra tus proyectos de programación desde alguna PC del laboratorio, desde el PC puedes abrir tu proyecto desde VSCode, Sublime Text y tu administrador de archivos, también puedes eliminar tu proyecto, comprimir un respaldo de tu proyecto y administra tu proyecto de GIT.</p>
+        <p className="text-md text-white font-bold m-5 md:ps-36 md:pe-36 flex items-center">Dentro de los Laboratorios Nebulis te encontrarás hasta el momento con 2 inteligencias aritificiales (IA) desarrolladas totalmente desde cero y en constante desarrollo, ¡te las presento!:</p>
 
-        <div className="flex flex-row items-start ms-48 me-36">
+        <div className="flex flex-row items-start m-5 md:ms-48 md:me-36">
             <img src={kamus} alt="kamus" className="w-28 pixelated" />
             <div className="flex flex-col ms-4">
                 <p className="text-lg text-emerald-200 font-bold">KAMUS</p>
@@ -21,7 +21,7 @@ function Body(){
             </div>
         </div>
 
-        <div className="flex flex-row items-start ms-48 me-36 mt-12">
+        <div className="flex flex-row items-start m-5 md:ms-48 md:me-36 mt-12">
             <img src={stella} alt="stella" className="w-52 pixelated" />
             <div className="flex flex-col ms-4">
                 <p className="text-lg text-emerald-200 font-bold">STELLA</p>

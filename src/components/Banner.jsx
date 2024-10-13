@@ -9,13 +9,13 @@ function Banner(){
             {/* bg-blue-950  */}
             <div className='pixelated banner h-[600px]' style={{backgroundImage: `url(${banner})`}}>
                 <div className='flex items-center p-2 bg-neutral-950/50 select-none'>
-                    <img src={logo} className='w-10' />
-                    <p className='ms-5 text-xl text-white font-bold'>Nebulis Project</p>
+                    <img src={logo} className='w-10 hidden md:block' />
+                    <p className='md:ms-5 text-xl text-white font-bold'>Nebulis Project</p>
 
                     {/* target="_blank" rel="noopener noreferrer" */}
-                    <a href="#download" className='ms-10 pt-1 text-md text-emerald-500 font-bold hover:text-emerald-700 cursor-pointer'>Descargar</a>
+                    <a href="#download" className='ms-4 md:ms-10 pt-1 text-md text-emerald-500 font-bold hover:text-emerald-700 cursor-pointer'>Descargar</a>
 
-                    <a href="#news" className='ms-10 pt-1 text-md text-emerald-500 font-bold hover:text-emerald-700 cursor-pointer'>Novedades</a>
+                    <a href="#news" className='ms-4 md:ms-10 pt-1 text-md text-emerald-500 font-bold hover:text-emerald-700 cursor-pointer'>Novedades</a>
 
                 </div>
             </div>
