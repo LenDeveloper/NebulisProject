@@ -15,9 +15,14 @@ export default function () {
         <div className="relative bg-firefly-900 pb-24">
         {/* Onda SVG */}
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#18272f" fillOpacity="1" d="M0,64L26.7,96C53.3,128,107,192,160,229.3C213.3,267,267,277,320,250.7C373.3,224,427,160,480,149.3C533.3,139,587,181,640,197.3C693.3,213,747,203,800,186.7C853.3,171,907,149,960,160C1013.3,171,1067,213,1120,202.7C1173.3,192,1227,128,1280,112C1333.3,96,1387,128,1413,144L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
-        {/* Cuadro de KAMUS */}
+        
+
+
+        {/*Cuadros IAS*/}
         <div className="flex justify-center gap-32">
-        <div className="flex justify-center shadow-2xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 ">
+        {/* Cuadro de KAMUS */}
+        <div className="flex justify-center shadow-2xl m-5">
             <div className="flex bg-slate-200 p-2 rounded-md">
                 <img src={KamusPicture} alt="KamusPicture" className="rounded-lg border-4 me-3 shadow-2xl" />
                 <div>
@@ -32,7 +37,7 @@ export default function () {
             </div>
         </div>
         {/* Cuadro de Stella */}
-        <div className="flex justify-center shadow-2xl">
+        <div className="flex justify-center shadow-2xl m-5">
             <div className="flex bg-slate-200 p-2 rounded-md">
                 <img src={StellaPicture} alt="KamusPicture" className="rounded-lg border-4 me-3 shadow-2xl" />
                 <div>
@@ -47,10 +52,13 @@ export default function () {
             </div>
         </div>
         </div>
+        </div>
+        {/*FIN Cuadros IAS*/}
+
         {/* Logo Nebulis */}
         <img src={Icon} alt="NebulisLogo" className="w-32 m-auto block mt-32 bg-firefly-900 rounded-full" />
         {/* Info Del Proyecto */}
-        <div className="mt-5 bg-firefly-950 mx-48 p-5 LexEnd rounded-lg">
+        <div className="mt-5 bg-firefly-950 sm:mx-48 p-5 LexEnd rounded-lg">
             <p className="font-bold text-xl text-firefly-50">
                 Bienvenido al Proyecto Nebulis: Transformando la Programación en una Experiencia Interactiva
             </p>
@@ -65,7 +73,7 @@ export default function () {
             </p>
         </div>
         {/* Info De Constante Desarrollo */}
-        <div className="mt-16 bg-firefly-950 mx-48 p-5 LexEnd rounded-lg">
+        <div className="mt-16 bg-firefly-950 sm:mx-48 p-5 LexEnd rounded-lg">
             <p className="font-bold text-xl text-firefly-50">
                 Nota Importante sobre el Software
             </p>
@@ -80,17 +88,21 @@ export default function () {
             </p>
         </div>
         {/* Botones de Descarga*/}
-        <div className="mt-16 bg-firefly-950 mx-48 p-5 LexEnd rounded-lg">
-        {/* "Descarga Laboratorios Nebulis y Transforma tu Experiencia de Programación"
+        <div className="mt-16 bg-firefly-950 sm:mx-48 p-5 LexEnd rounded-lg">
+        {/* 
+        "Descarga Laboratorios Nebulis y Transforma tu Experiencia de Programación"
         "Obtén Laboratorios Nebulis: Tu Nueva Herramienta de Programación"
         "Descarga Ahora Laboratorios Nebulis y Optimiza tus Proyectos"
         "Empieza a Usar Laboratorios Nebulis: ¡Descárgalo Aquí!"
-        "Descarga Laboratorios Nebulis y Lleva tu Programación al Siguiente Nivel"             */}
+        "Descarga Laboratorios Nebulis y Lleva tu Programación al Siguiente Nivel"
+        */}
         <p className="LexEnd text-md break-words text-white font-bold text-2xl mb-10" id="download">Descarga Laboratorios Nebulis y Transforma tu Experiencia de Programación</p>
-        {/* Descargar Windows */}
+
         <div className="flex justify-center gap-32">
-        <div className="flex justify-center shadow-2xl">
-            <div className="flex bg-slate-200 p-2 rounded-md">
+        <div className="grid grid-cols-1 md:grid-cols-2 ">
+        {/* Descargar Windows */}
+        <div className="flex justify-center shadow-2xl sm:me-24">
+            <div className="flex bg-slate-200 p-2 rounded-md mb-5">
                 <img src={Windows} alt="Windows" className="rounded-lg border-4 me-3 shadow-2xl w-28 h-auto" />
                 <div>
                     <p className="text-black font-bold BebasNeue text-2xl break-words">W i n d o w s</p>
@@ -125,9 +137,11 @@ export default function () {
         </div>
         </div>
 
+        </div>
+
 
         {/* Actualizaciones */}
-        <div className="mt-16 bg-firefly-950 mx-48 p-5 LexEnd rounded-lg">
+        <div className="mt-16 bg-firefly-950 sm:mx-48 p-5 LexEnd rounded-lg">
             <p className="font-bold text-xl text-firefly-50" id="features">
                 Novedades
             </p>
