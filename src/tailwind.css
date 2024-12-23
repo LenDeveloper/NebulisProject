@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('./assets/fonts/BebasNeue/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LexEnd';
+    src: url('./assets/fonts/Lexend/Lexend-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.BebasNeue {
+    font-family: 'BebasNeue', sans-serif;
+}
+.LexEnd {
+    font-family: 'LexEnd', sans-serif;
+}

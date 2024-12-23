@@ -1,0 +1,10 @@
+.pixel-render {
+    image-rendering: pixelated;
+}
+.banner {
+    /* mask-image: linear-gradient(
+        black 80%,
+        transparent
+    ); */
+    background-attachment: fixed;
+}

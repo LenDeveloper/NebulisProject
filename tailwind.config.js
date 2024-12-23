@@ -1,10 +1,56 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**.{html,js,jsx,ts,tsx}", "./src/components/**.{html,js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{html,js,jsx}",
+    "./index.html",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        tangaroa: {
+          '50': '#ebf7ff',
+          '100': '#dbefff',
+          '200': '#bfe0ff',
+          '300': '#98cbff',
+          '400': '#6fa9ff',
+          '500': '#4e86ff',
+          '600': '#2e5ffd',
+          '700': '#224be0',
+          '800': '#1f42b4',
+          '900': '#223e8d',
+          '950': '#0f1a3e',
+        },
+        'everglade': {
+          '50': '#eefbf5',
+          '100': '#d7f4e5',
+          '200': '#b2e8cf',
+          '300': '#7fd6b4',
+          '400': '#4bbc94',
+          '500': '#28a17a',
+          '600': '#1a8162',
+          '700': '#156751',
+          '800': '#135241',
+          '900': '#0f3e32',
+          '950': '#08261f',
+        },
+        'firefly': {
+          '50': '#f2f9f9',
+          '100': '#ddeef0',
+          '200': '#bfdde2',
+          '300': '#92c3ce',
+          '400': '#5ea2b2',
+          '500': '#438697',
+          '600': '#3a6d80',
+          '700': '#345b6a',
+          '800': '#314c59',
+          '900': '#2d424c',
+          '950': '#18272f',
+       },
+    
+
+      },
+    },
   },
   plugins: [],
 }
-// "./index.html",
-// "./**/*.{js,ts,jsx,tsx}",
+
