@@ -22,8 +22,8 @@ export default function () {
         <div className="flex justify-center gap-32">
         <div className="grid grid-cols-1 md:grid-cols-2 ">
         {/* Cuadro de KAMUS */}
-        <div className="flex justify-center shadow-2xl m-5 bg-green-200">
-          <div className="flex bg-slate-200 p-2 rounded-md">
+        <div className="flex justify-center m-5">
+          <div className="flex bg-slate-200 p-2 rounded-md shadow-2xl">
             <img 
               src={KamusPicture} 
               alt="KamusPicture" 
@@ -44,8 +44,8 @@ export default function () {
           </div>
         </div>
         {/* Cuadro de Stella */}
-        <div className="flex justify-center shadow-2xl m-5 bg-green-200">
-          <div className="flex bg-slate-200 p-2 rounded-md">
+        <div className="flex justify-center m-5">
+          <div className="flex bg-slate-200 p-2 rounded-md shadow-2xl">
             <img 
               src={StellaPicture} 
               alt="KamusPicture" 
@@ -117,34 +117,35 @@ export default function () {
         <div className="flex justify-center gap-32">
         <div className="grid grid-cols-1 md:grid-cols-2 ">
         {/* Descargar Windows */}
-        <div className="flex justify-center shadow-2xl sm:me-24">
-            <div className="flex bg-slate-200 p-2 rounded-md mb-5">
+        <div className="flex justify-center sm:me-24">
+            <div className="flex bg-slate-200 p-2 rounded-md mb-5 shadow-2xl">
                 <img src={Windows} alt="Windows" className="rounded-lg border-4 me-3 shadow-2xl w-28 h-auto" />
                 <div>
                     <p className="text-black font-bold BebasNeue text-2xl break-words">W i n d o w s</p>
                     {/* <p className="text-black LexEnd text-md break-words w-60">
                         Obtén la Versión para Windows 10 (64 Bits) Ahora
                     </p> */}
-                    <a href="https://www.mediafire.com/file/t5fd27rkx794fx9/nebulisproject-0.0.5-setup.exe/file" target="_blank" className="text-everglade-800 LexEnd text-md break-words w-60 font-bold">
+                    <a href="https://www.mediafire.com/file/t5fd27rkx794fx9/nebulisproject-0.0.5-setup.exe/file" target="_blank" className="text-everglade-800 LexEnd text-md break-words font-bold">
                         Descargar .Exe (X64)
                     </a>
                 </div>
             </div>
         </div>
         {/* Descargar Linux */}
-        <div className="flex justify-center shadow-2xl">
-            <div className="flex bg-slate-200 p-2 rounded-md">
+        <div className="flex justify-center">
+            <div className="flex bg-slate-200 p-2 rounded-md shadow-2xl">
                 <img src={Linux} alt="KamusPicture" className="rounded-lg border-4 me-3 shadow-2xl" />
                 <div>
                     <p className="text-black font-bold BebasNeue text-2xl break-words">L i n u x  - (X64)</p>
                     {/* <p className="text-black LexEnd text-md break-words w-60">
                         Obtén la Versión para Linux (64 Bits) Ahora
                     </p> */}
-                    <a href="https://www.mediafire.com/file/iw7kxqejdsvcl90/nebulisproject-0.0.5.AppImage/file" target="_blank" className="text-everglade-800 LexEnd text-md break-words w-60 font-bold">
+                    <a href="https://www.mediafire.com/file/iw7kxqejdsvcl90/nebulisproject-0.0.5.AppImage/file" target="_blank" className="text-everglade-800 LexEnd text-md break-words font-bold pb-5">
                         Descargar .AppImage
                     </a>
                     <br />
-                    <a href="https://www.mediafire.com/file/3ic1c86z72o9mzd/nebulisproject_0.0.5_amd64.snap/file" target="_blank" className="text-everglade-800 LexEnd text-md break-words w-60 font-bold mt-4">
+                    <br />
+                    <a href="https://www.mediafire.com/file/3ic1c86z72o9mzd/nebulisproject_0.0.5_amd64.snap/file" target="_blank" className="text-everglade-800 LexEnd text-md break-words font-bold mt-4">
                         Descargar .Snap
                     </a>
                 </div>
