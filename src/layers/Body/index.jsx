@@ -22,35 +22,51 @@ export default function () {
         <div className="flex justify-center gap-32">
         <div className="grid grid-cols-1 md:grid-cols-2 ">
         {/* Cuadro de KAMUS */}
-        <div className="flex justify-center shadow-2xl m-5">
-            <div className="flex bg-slate-200 p-2 rounded-md">
-                <img src={KamusPicture} alt="KamusPicture" className="rounded-lg border-4 me-3 shadow-2xl" />
-                <div>
-                    <p className="text-black font-bold BebasNeue text-2xl break-words">K a m u s</p>
-                    <p className="text-black LexEnd text-md break-words w-60">
-                        Kamus tu asistente virtual de programación...
-                    </p>
-                    <p onClick={ KamusAlertInfo } className="text-everglade-500 LexEnd text-md break-words w-60 font-bold hover:text-teal-950 cursor-pointer">
-                        Click Para mas info
-                    </p>                    
-                </div>
+        <div className="flex justify-center shadow-2xl m-5 bg-green-200">
+          <div className="flex bg-slate-200 p-2 rounded-md">
+            <img 
+              src={KamusPicture} 
+              alt="KamusPicture" 
+              className="rounded-lg border-4 me-3 shadow-2xl" 
+            />
+            <div>
+              <p className="text-black font-bold BebasNeue text-2xl break-words">K a m u s</p>
+              <p className="text-black LexEnd text-md break-words"> 
+                Kamus tu asistente virtual de programación... 
+              </p>
+              <p 
+                onClick={ KamusAlertInfo } 
+                className="text-everglade-500 LexEnd text-md break-words font-bold hover:text-teal-950 cursor-pointer"
+              >
+                Click Para mas info
+              </p>
             </div>
+          </div>
         </div>
         {/* Cuadro de Stella */}
-        <div className="flex justify-center shadow-2xl m-5">
-            <div className="flex bg-slate-200 p-2 rounded-md">
-                <img src={StellaPicture} alt="KamusPicture" className="rounded-lg border-4 me-3 shadow-2xl" />
-                <div>
-                    <p className="text-black font-bold BebasNeue text-2xl break-words">S t e l l a</p>
-                    <p className="text-black LexEnd text-md break-words w-60">
-                        Stella tu secretaria virtual personal...
-                    </p>
-                    <p onClick={ StellaAlertInfo } className="text-everglade-500 LexEnd text-md break-words w-60 font-bold hover:text-teal-950 cursor-pointer">
-                        Click Para mas info
-                    </p>
-                </div>
+        <div className="flex justify-center shadow-2xl m-5 bg-green-200">
+          <div className="flex bg-slate-200 p-2 rounded-md">
+            <img 
+              src={StellaPicture} 
+              alt="KamusPicture" 
+              className="rounded-lg border-4 me-3 shadow-2xl" 
+            />
+            <div>
+              <p className="text-black font-bold BebasNeue text-2xl break-words">S t e l l a</p>
+              <p className="text-black LexEnd text-md break-words"> 
+                Stella tu secretaria virtual personal...
+              </p>
+              <p 
+                onClick={ StellaAlertInfo } 
+                className="text-everglade-500 LexEnd text-md break-words font-bold hover:text-teal-950 cursor-pointer"
+              >
+                Click Para mas info
+              </p>
             </div>
+          </div>
         </div>
+
+
         </div>
         </div>
         {/*FIN Cuadros IAS*/}
@@ -109,7 +125,7 @@ export default function () {
                     {/* <p className="text-black LexEnd text-md break-words w-60">
                         Obtén la Versión para Windows 10 (64 Bits) Ahora
                     </p> */}
-                    <a href="https://www.mediafire.com/file/t5fd27rkx794fx9/nebulisproject-0.0.5-setup.exe/file" className="text-everglade-800 LexEnd text-md break-words w-60 font-bold">
+                    <a href="https://www.mediafire.com/file/t5fd27rkx794fx9/nebulisproject-0.0.5-setup.exe/file" target="_blank" className="text-everglade-800 LexEnd text-md break-words w-60 font-bold">
                         Descargar .Exe (X64)
                     </a>
                 </div>
@@ -124,11 +140,11 @@ export default function () {
                     {/* <p className="text-black LexEnd text-md break-words w-60">
                         Obtén la Versión para Linux (64 Bits) Ahora
                     </p> */}
-                    <a href="https://www.mediafire.com/file/iw7kxqejdsvcl90/nebulisproject-0.0.5.AppImage/file" className="text-everglade-800 LexEnd text-md break-words w-60 font-bold">
+                    <a href="https://www.mediafire.com/file/iw7kxqejdsvcl90/nebulisproject-0.0.5.AppImage/file" target="_blank" className="text-everglade-800 LexEnd text-md break-words w-60 font-bold">
                         Descargar .AppImage
                     </a>
                     <br />
-                    <a href="https://www.mediafire.com/file/3ic1c86z72o9mzd/nebulisproject_0.0.5_amd64.snap/file" className="text-everglade-800 LexEnd text-md break-words w-60 font-bold mt-4">
+                    <a href="https://www.mediafire.com/file/3ic1c86z72o9mzd/nebulisproject_0.0.5_amd64.snap/file" target="_blank" className="text-everglade-800 LexEnd text-md break-words w-60 font-bold mt-4">
                         Descargar .Snap
                     </a>
                 </div>
