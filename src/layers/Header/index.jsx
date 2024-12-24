@@ -8,7 +8,7 @@ export default function () {
   return (
     <>
       <div
-        className="relative h-screen bg-no-repeat bg-cover banner"
+        className="relative h-screen bg-no-repeat bg-cover banner bg-top"
         style={{ backgroundImage: `url(${BannerGif})`, imageRendering: "pixelated" }}
       >
         {/* Capa de superposición negra con transparencia */}
