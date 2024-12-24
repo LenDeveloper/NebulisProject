@@ -22,3 +22,28 @@
 .LexEnd {
     font-family: 'LexEnd', sans-serif;
 }
+
+
+
+
+/* Personalización general de scrollbars */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra */
+}
+
+/* Estilo del track (fondo de la barra) */
+::-webkit-scrollbar-track {
+  background: #6a6b70; /* Color de fondo del track */
+/*  border-radius: 15px;*/
+}
+
+/* Estilo del thumb (la parte que se desplaza) */
+::-webkit-scrollbar-thumb {
+  background: #3b3b3e; /* Color del thumb */
+/*  border-radius: 10px;*/
+}
+
+/* Estilos adicionales (opcional) */
+::-webkit-scrollbar-thumb:hover {
+  background: #171718; /* Color del thumb al pasar el mouse */
+}
